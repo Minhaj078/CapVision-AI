@@ -1,5 +1,5 @@
-import { AgentState } from '../state';
-import { ai, generateContentWithRetry } from '../../services/gemini';
+import { AgentState } from '../state.js';
+import { ai, generateContentWithRetry } from '../../services/gemini.js';
 
 /**
  * [Interview Prep]: The Risk Node performs SWOT analysis and risk quantification.

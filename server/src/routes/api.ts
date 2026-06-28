@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { analyzeTicker } from '../controllers/analyzeController';
+import { analyzeTicker } from '../controllers/analyzeController.js';
 
 const router = Router();
 

@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import apiRouter from './routes/api';
-import errorHandler from './middlewares/errorHandler';
-import { testGeminiConnection } from './services/gemini';
+import apiRouter from './routes/api.js';
+import errorHandler from './middlewares/errorHandler.js';
+import { testGeminiConnection } from './services/gemini.js';
 
 // Load environment variables
 dotenv.config();

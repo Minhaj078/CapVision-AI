@@ -1,6 +1,6 @@
-import { AgentState } from '../state';
-import { getLatestNews } from '../tools/latestNews';
-import { ai, generateContentWithRetry } from '../../services/gemini';
+import { AgentState } from '../state.js';
+import { getLatestNews } from '../tools/latestNews.js';
+import { ai, generateContentWithRetry } from '../../services/gemini.js';
 
 /**
  * [Interview Prep]: The News Node isolates qualitative research.

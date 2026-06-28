@@ -1,7 +1,7 @@
-import { ai, generateContentWithRetry } from '../services/gemini';
-import { CompanyOverview } from './tools/companyOverview';
-import { MarketData } from './tools/marketData';
-import { NewsData } from './tools/latestNews';
+import { ai, generateContentWithRetry } from '../services/gemini.js';
+import { CompanyOverview } from './tools/companyOverview.js';
+import { MarketData } from './tools/marketData.js';
+import { NewsData } from './tools/latestNews.js';
 
 export interface ReasoningEngineOutput {
   investmentScore: number; // Score between 1 and 100

@@ -1,10 +1,10 @@
 import { StateGraph } from '@langchain/langgraph';
-import { AgentStateAnnotation, AgentState } from './state';
-import { researchNode } from './nodes/researchNode';
-import { financialNode } from './nodes/financialNode';
-import { newsNode } from './nodes/newsNode';
-import { riskNode } from './nodes/riskNode';
-import { decisionNode } from './nodes/decisionNode';
+import { AgentStateAnnotation, AgentState } from './state.js';
+import { researchNode } from './nodes/researchNode.js';
+import { financialNode } from './nodes/financialNode.js';
+import { newsNode } from './nodes/newsNode.js';
+import { riskNode } from './nodes/riskNode.js';
+import { decisionNode } from './nodes/decisionNode.js';
 
 /**
  * [Interview Prep - Why LangGraph?]:

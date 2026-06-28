@@ -1,6 +1,6 @@
-import { AgentState } from '../state';
-import { getMarketData } from '../tools/marketData';
-import { ai, generateContentWithRetry } from '../../services/gemini';
+import { AgentState } from '../state.js';
+import { getMarketData } from '../tools/marketData.js';
+import { ai, generateContentWithRetry } from '../../services/gemini.js';
 
 /**
  * [Interview Prep]: The Financial Node isolates the quantitative assessment.

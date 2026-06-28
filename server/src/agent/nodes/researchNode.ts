@@ -1,5 +1,5 @@
-import { AgentState } from '../state';
-import { getCompanyOverview, resolveTicker } from '../tools/companyOverview';
+import { AgentState } from '../state.js';
+import { getCompanyOverview, resolveTicker } from '../tools/companyOverview.js';
 
 /**
  * [Interview Prep]: The Research Node acts as the entry point of the pipeline.

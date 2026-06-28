@@ -1,7 +1,7 @@
 import { Annotation } from '@langchain/langgraph';
-import { CompanyOverview } from './tools/companyOverview';
-import { MarketData } from './tools/marketData';
-import { NewsData } from './tools/latestNews';
+import { CompanyOverview } from './tools/companyOverview.js';
+import { MarketData } from './tools/marketData.js';
+import { NewsData } from './tools/latestNews.js';
 
 export const AgentStateAnnotation = Annotation.Root({
   // Initial user input query

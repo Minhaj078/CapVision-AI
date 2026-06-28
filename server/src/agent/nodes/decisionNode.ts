@@ -1,5 +1,5 @@
-import { AgentState } from '../state';
-import { executeReasoningEngine } from '../reasoningEngine';
+import { AgentState } from '../state.js';
+import { executeReasoningEngine } from '../reasoningEngine.js';
 
 /**
  * [Interview Prep]: The Decision Node is the final stage compiler of our LangGraph.

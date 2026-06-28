@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { graph } from '../agent/graph';
+import { graph } from '../agent/graph.js';
 
 /**
  * Controller: Triggers the live multi-agent LangGraph workflow for stock research.
