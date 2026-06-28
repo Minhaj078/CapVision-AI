@@ -129,7 +129,7 @@ export function App() {
       // Reset steps
       setSteps(prev => prev.map(s => s.status === 'running' ? { ...s, status: 'pending' as StepStatus } : s));
       setLoading(false);
-      alert(`Research compilation failed: ${err.response?.data?.error || err.message}`);
+      alert(`Research compilation failed: ${err.response?.data?.error?.message || err.response?.data?.message || err.message}`);
     }
   };
 
